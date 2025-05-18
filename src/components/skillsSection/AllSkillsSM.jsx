@@ -1,7 +1,7 @@
-import { FaHtml5 } from "react-icons/fa";
+import { FaHtml5, FaServer } from "react-icons/fa";
 import { FaCss3Alt } from "react-icons/fa";
 import { IoLogoJavascript } from "react-icons/io";
-import { SiTypescript } from "react-icons/si";
+import { SiExpress, SiMongodb, SiNodedotjs, SiTypescript } from "react-icons/si";
 import { FaReact } from "react-icons/fa";
 import { SiRedux } from "react-icons/si";
 import { SiNextdotjs } from "react-icons/si";
@@ -42,6 +42,22 @@ const skills = [
     skill: "TailwindCSS",
     icon: RiTailwindCssFill,
   },
+   {
+      skill: "MongoDB",
+      icon: SiMongodb,
+    },
+    {
+      skill: "Express",
+      icon: SiExpress,
+    },
+    {
+      skill: "Node.js",
+      icon: SiNodedotjs,
+    },
+    {
+      skill: "REST API",
+      icon: FaServer, // General server icon for APIs
+    },
 ];
 
 const AllSkillsSM = () => {
