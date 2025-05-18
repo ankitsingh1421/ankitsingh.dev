@@ -7,42 +7,42 @@ const projects = [
   {
     name: "Decoding Bollywood Hits",
     align: "right",
-    image: "../../public/images/website-img-1.jpg",
+    image: "/images/website-img-1.jpg",
     link: "https://decodingbollywoodhits.in",
   },
   {
     name: "Store management APP",
 
     align: "left",
-    image: "../../public/images/website-img-2.jpg",
+    image: "/images/website-img-2.jpg",
     link: "https://store-master-ochre.vercel.app",
   },
   {
     name: "Expense Tracker App",
 
     align: "right",
-    image: "../../public/images/website-img-3.jpg",
+    image: "/images/website-img-3.jpg",
     link: "https://expanse-tracker-seven-phi.vercel.app/",
   },
   {
     name: "Hire Hub",
 
     align: "left",
-    image: "../../public/images/website-img-4.jpg",
+    image: "/images/website-img-4.jpg",
     link: "https://hire-hub-kappa.vercel.app/",
   },
   {
     name: "Vision Track",
 
     align: "right",
-    image: "../../public/images/website-img-5.jpg",
+    image: "/images/website-img-5.jpg",
     link: "https://vision-track.vercel.app/",
   },
   {
     name: "Xora",
 
     align: "left",
-    image: "../../public/images/website-img-6.jpg",
+    image: "/images/website-img-6.jpg",
     link: "https://modern-landing-page-oh5s.vercel.app/",
   },
 ];
