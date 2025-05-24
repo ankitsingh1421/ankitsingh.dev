@@ -22,7 +22,7 @@ const projects = [
 
     align: "right",
     image: "/images/website-img-3.jpg",
-    link: "https://expanse-tracker-seven-phi.vercel.app/",
+    link: "https://www.websitegrowth.agency/",
   },
   {
     name: "Hire Hub",
