@@ -1,5 +1,5 @@
 import SingleSkill from "./SingleSkill";
-import { FaHtml5, FaServer } from "react-icons/fa";
+import { FaAws, FaDocker, FaHtml5, FaServer } from "react-icons/fa";
 import { FaCss3Alt } from "react-icons/fa";
 import { IoLogoJavascript } from "react-icons/io";
 import { SiClerk, SiExpress, SiMongodb, SiNodedotjs, SiTypescript } from "react-icons/si";
@@ -9,6 +9,7 @@ import { SiNextdotjs } from "react-icons/si";
 import { RiTailwindCssFill } from "react-icons/ri";
 import { motion } from "framer-motion";
 import { fadeIn } from "../../framerMotion/variants";
+import { fakeBaseQuery } from "@reduxjs/toolkit/query";
 
 const skills = [
   {
@@ -53,11 +54,11 @@ const skills = [
   },
     {
     skill: "Docker",
-    icon: FaHtml5,
+    icon: FaDocker,
   },
   {
     skill: "AWS",
-    icon: FaCss3Alt,
+    icon: FaAws,
   },
 ];
 

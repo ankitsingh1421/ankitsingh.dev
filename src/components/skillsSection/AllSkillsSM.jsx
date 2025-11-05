@@ -1,5 +1,4 @@
-import { FaHtml5, FaServer } from "react-icons/fa";
-import { FaCss3Alt } from "react-icons/fa";
+import { FaAws, FaCss3Alt, FaDocker, FaServer } from "react-icons/fa";
 import { IoLogoJavascript } from "react-icons/io";
 import { SiExpress, SiMongodb, SiNodedotjs, SiTypescript } from "react-icons/si";
 import { FaReact } from "react-icons/fa";
@@ -10,14 +9,6 @@ import { motion } from "framer-motion";
 import { fadeIn } from "../../framerMotion/variants";
 
 const skills = [
-  {
-    skill: "HTML",
-    icon: FaHtml5,
-  },
-  {
-    skill: "CSS",
-    icon: FaCss3Alt,
-  },
   {
     skill: "JavaScript",
     icon: IoLogoJavascript,
@@ -57,12 +48,19 @@ const skills = [
     {
       skill: "REST API",
       icon: FaServer, // General server icon for APIs
-    },
+    },{
+    skill: "Docker",
+    icon: FaDocker,
+  },
+  {
+    skill: "AWS",
+    icon: FaAws,
+  }
 ];
 
 const AllSkillsSM = () => {
   return (
-    <div className="grid md:grid-cols-4 sm:grid-cols-2 gap-12 my-12">
+    <div className="grid gap-12 my-12 md:grid-cols-4 sm:grid-cols-2">
       {skills.map((item, index) => {
         return (
           <motion.div
@@ -74,7 +72,7 @@ const AllSkillsSM = () => {
             className="flex flex-col items-center"
           >
             <item.icon className="text-7xl text-orange" />
-            <p className="text-center mt-4">{item.skill}</p>
+            <p className="mt-4 text-center">{item.skill}</p>
           </motion.div>
         );
       })}
